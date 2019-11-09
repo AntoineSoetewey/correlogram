@@ -74,7 +74,7 @@ ui <- fluidPage(
                   max = 90,
                   value = 45),
       hr(),
-      HTML('<p>Report a <a href="https://github.com/AntoineSoetewey/statistics-101/issues">bug</a> or view the <a href="https://github.com/AntoineSoetewey/statistics-101/blob/master/app.R">code</a>. Back to <a href="https://www.antoinesoetewey.com/">www.antoinesoetewey.com</a>.</p>')
+      HTML('<p>Report a <a href="https://github.com/AntoineSoetewey/correlogram/issues">bug</a> or view the <a href="https://github.com/AntoineSoetewey/correlogram/blob/master/app.R">code</a>. Back to <a href="https://www.antoinesoetewey.com/">www.antoinesoetewey.com</a>.</p>')
     ),
     
     # Show a plot of the generated distribution
