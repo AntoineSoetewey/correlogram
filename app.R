@@ -90,7 +90,7 @@ ui <- fluidPage(
         value = 45
       ),
       hr(),
-      HTML('<p>Report a <a href="https://github.com/AntoineSoetewey/correlogram/issues">bug</a> or view the <a href="https://github.com/AntoineSoetewey/correlogram/blob/master/app.R">code</a>. Back to <a href="https://www.antoinesoetewey.com/">www.antoinesoetewey.com</a> or <a href="https://www.statsandr.com/">www.statsandr.com</a>.</p>')
+      HTML('<p>Report a <a href="https://github.com/AntoineSoetewey/correlogram/issues">bug</a> or view the <a href="https://github.com/AntoineSoetewey/correlogram">code</a>. Back to <a href="https://www.antoinesoetewey.com/">www.antoinesoetewey.com</a> or <a href="https://www.statsandr.com/">www.statsandr.com</a>.</p>')
     ),
 
     # Show a plot of the generated distribution
