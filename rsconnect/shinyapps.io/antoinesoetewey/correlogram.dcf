@@ -5,8 +5,8 @@ account: antoinesoetewey
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 1374604
-bundleId: 3241521
+bundleId: 4025637
 url: https://antoinesoetewey.shinyapps.io/correlogram/
-when: 1591602878.41093
+when: 1608813033.94397
 asMultiple: FALSE
 asStatic: FALSE
