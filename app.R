@@ -15,7 +15,7 @@ ui <- fluidPage(
 
   # Application title
   h1("Correlogram"),
-  h4(tags$a(href = "https://www.antoinesoetewey.com/", "Antoine Soetewey")),
+  h4(tags$a(href = "https://antoinesoetewey.com/", "Antoine Soetewey")),
 
   # Sidebar with a slider input for number of bins
   sidebarLayout(
@@ -28,7 +28,7 @@ ui <- fluidPage(
           "iris dataset" = "iris"
         )
       ),
-      HTML(paste0("(", tags$a(href = "https://www.antoinesoetewey.com/contact/", "Contact me"), " if you need your own file to be processed.)")),
+      HTML(paste0("(", tags$a(href = "https://antoinesoetewey.com/contact/", "Contact me"), " if you need your own file to be processed.)")),
       hr(),
       conditionalPanel(
         condition = "input.source == 'own'",
@@ -90,7 +90,7 @@ ui <- fluidPage(
         value = 45
       ),
       hr(),
-      HTML('<p>Report a <a href="https://github.com/AntoineSoetewey/correlogram/issues">bug</a> or view the <a href="https://github.com/AntoineSoetewey/correlogram">code</a>. Back to <a href="https://www.antoinesoetewey.com/">antoinesoetewey.com</a> or <a href="https://statsandr.com/">statsandr.com</a>.</p>')
+      HTML('<p>Report a <a href="https://github.com/AntoineSoetewey/correlogram/issues">bug</a> or view the <a href="https://github.com/AntoineSoetewey/correlogram">code</a>. Back to <a href="https://antoinesoetewey.com/">antoinesoetewey.com</a> or <a href="https://statsandr.com/">statsandr.com</a>.</p>')
     ),
 
     # Show a plot of the generated distribution
@@ -100,7 +100,7 @@ ui <- fluidPage(
       htmlOutput("text"),
       # br(),
       # br(),
-      # tags$a(href="https://www.antoinesoetewey.com/", "Back to antoinesoetewey.com"),
+      # tags$a(href="https://antoinesoetewey.com/", "Back to antoinesoetewey.com"),
       br(),
       br()
     )
